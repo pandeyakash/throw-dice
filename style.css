@@ -5,6 +5,10 @@
   border-radius: 15px;
   margin: auto;
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .score {
@@ -57,4 +61,19 @@ button {
   cursor: pointer;
   margin-left: 645px;
   margin-top: 20px;
+}
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
 }
